@@ -25,7 +25,7 @@ function init() {
       clientID: oauthClientId,
       clientSecret: oauthClientSecret,
       // Replace the callbackURL string with your own deployed servers path to handle the OAuth redirect
-      callbackURL: "https://onshape-app-stl.herokuapp.com/oauthRedirect",
+      callbackURL: "https://localhost:3000/OauthRedirect",
       authorizationURL: "https://partner.dev.onshape.com/oauth/authorize",
       tokenURL: "https://partner.dev.onshape.com/oauth/token",
       userProfileURL: "https://partner.dev.onshape.com/api/users/current"
