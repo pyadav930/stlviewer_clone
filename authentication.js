@@ -25,7 +25,11 @@ function init() {
       clientID: oauthClientId,
       clientSecret: oauthClientSecret,
       // Replace the callbackURL string with your own deployed servers path to handle the OAuth redirect
+<<<<<<< HEAD
       callbackURL: "http://localhost:3000/oauthRedirect",
+=======
+      callbackURL: "https://localhost:3000/OauthRedirect",
+>>>>>>> 5ed8757d4eb5e79b591a445e9c90954be1fbda5e
       authorizationURL: "https://partner.dev.onshape.com/oauth/authorize",
       tokenURL: "https://partner.dev.onshape.com/oauth/token",
       userProfileURL: "https://partner.dev.onshape.com/api/users/current"

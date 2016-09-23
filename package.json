@@ -30,7 +30,11 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "http://localhost:3000"
+=======
+    "url": "https://localhost:3000"
+>>>>>>> 5ed8757d4eb5e79b591a445e9c90954be1fbda5e
   },
   "keywords": [
     "node",
